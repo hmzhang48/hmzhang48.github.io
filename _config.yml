@@ -26,7 +26,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-# about_profile_image: images/profile.jpg
+# about_profile_image: images/Hermes.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Haomin Zhang and I am a **full-stack developer**. I am currently pursuing a **master** degree of **Human Computer Interaction** at **University College Dublin**.
 
@@ -62,17 +62,17 @@ content:
         title: University College Dublin
         caption: Sep. 2023 - Sep. 2024 (Expected)
         sub_title: Master of Human Computer Interaction
-        quote: >
-          UXD: User-Centered Design, Human Computer Interaction, Creative & Interactive Media, Digital Media & Communication, Quantitative Data Analysis, AI & Ethics
+        # quote: >
         description: | # this will include new lines to allow paragraphs
+          **Modules**: UXD: User-Centered Design, Human Computer Interaction, Creative & Interactive Media, Digital Media & Communication, Quantitative Data Analysis, AI & Ethics
 
       - layout: left
         title: Communication University of China
         caption: Sep. 2010 - Jun. 2014
         sub_title: Bachelor of Radio and Television Engineering
-        quote: >
-          Photography & Lighting Technology, Audio Engineering, TV Program Editing and Digital Compositing Technology, Art of TV Editing and Directing, Film & TV Editing Art
+        # quote: >
         description: | # this will include new lines to allow paragraphs
+          **Modules**: Photography & Lighting Technology, Audio Engineering, TV Program Editing and Digital Compositing Technology, Art of TV Editing and Directing, Film & TV Editing Art
 
   - title: Skills
     layout: text
