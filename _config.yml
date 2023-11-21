@@ -40,11 +40,11 @@ content:
         # border: weak
         title: Indeed-like Job Website
         link: github.com/hmzhang48/job_website
-        # link_text: Project Website
+        link_text: job_website
         additional_links:
-          # - title:  Github page for project
-          #   icon: fab fa-github
-          #   url: Link to project
+          - title: job_website
+            icon: fab fa-github
+            url: github.com/hmzhang48/job_website
         quote: >
           A job portal for both job seekers and recruiters. Job seekers can browse and apply for job openings, submitting their resumes, while recruiters can post and manage job listings, assess incoming resumes, and send interview invitations.
         description: | # this will include new lines to allow paragraphs
@@ -62,7 +62,8 @@ content:
         title: University College Dublin
         caption: Sep. 2023 - Sep. 2024 (Expected)
         sub_title: Master of Human Computer Interaction
-        # quote: >
+        quote: >
+          UCD is a leading research-intensive university in Ireland.
         description: | # this will include new lines to allow paragraphs
           **Modules**: UXD: User-Centered Design, Human Computer Interaction, Creative & Interactive Media, Digital Media & Communication, Quantitative Data Analysis, AI & Ethics
 
@@ -70,7 +71,8 @@ content:
         title: Communication University of China
         caption: Sep. 2010 - Jun. 2014
         sub_title: Bachelor of Radio and Television Engineering
-        # quote: >
+        quote: >
+          CUC is one of the China's key universities of "Project 211", directly administered by the Ministry of Education.
         description: | # this will include new lines to allow paragraphs
           **Modules**: Photography & Lighting Technology, Audio Engineering, TV Program Editing and Digital Compositing Technology, Art of TV Editing and Directing, Film & TV Editing Art
 
@@ -91,7 +93,8 @@ content:
         # link_text:
         sub_title: Broadcasting Engineer
         caption: Jan. 2015 - Jun. 2023
-        # quote: >
+        quote: >
+          SZMG is a state media company based in Shenzhen, Guangdong province, China.
         description: | # this will include new lines to allow paragraphs
           Maintained annual gross downtime below 30 minutes for 8 consecutive years.
 
@@ -103,7 +106,8 @@ content:
         # link_text:
         sub_title: Journalist & Editor
         caption: Jul. 2014 - Dec. 2014
-        # quote: >
+        quote: >
+          Huxiu is an information platform focusing on technology and innovation.
         description: | # this will include new lines to allow paragraphs
           Authored over 50 IT reports and articles, gathering hundreds of thousands of readers.
 
