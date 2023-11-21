@@ -26,7 +26,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+# about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Haomin Zhang and I am a **full-stack developer**. I am currently pursuing a **master** degree of **Human Computer Interaction** at **University College Dublin**.
 
@@ -58,6 +58,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak
         title: University College Dublin
         caption: Sep. 2023 - Sep. 2024 (Expected)
         sub_title: Master of Human Computer Interaction
@@ -84,6 +85,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak
         title: Shenzhen Media Group
         # link:
         # link_text:
@@ -96,7 +98,7 @@ content:
           Led my colleagues in the revision of a broadcasting manual, resulting in streamlined workflows and over 30% reduction in training time.
 
       - layout: left
-        title: Beijing Huxiu IT Corp,
+        title: Beijing Huxiu IT Corp
         # link:
         # link_text:
         sub_title: Journalist & Editor
@@ -107,7 +109,7 @@ content:
 
 # Footer
 footer_show_references: true
-references_title: Haomin Zhang - zhanghaomin9248@gmail.com
+# references_title:
 
 # Build settings
 remote_theme: sproogen/resume-theme
