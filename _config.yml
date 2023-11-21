@@ -1,0 +1,120 @@
+# Site
+repository: hmzhang48/hmzhang48.github.io
+favicon:
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Haomin Zhang
+title: HCI Student | Full-stack Developer
+email: zhanghaomin9248@gmail.com
+website: hmzhang48.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username: hmzhang48
+linkedin_username: hmzhang48
+
+# Additional icon links
+additional_links:
+# - title: another link
+#   icon: font awesome brand icon name
+#   url: Link url
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Haomin Zhang and I am a **full-stack developer**. I am currently pursuing a **master** degree of **Human Computer Interaction** at **University College Dublin**.
+
+  I am most proficient in: <mark>Typescript</mark>, <mark>Vue</mark> and <mark>Fastify</mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        # border: weak
+        title: Indeed-like Job Website
+        link: github.com/hmzhang48/job_website
+        # link_text: Project Website
+        additional_links:
+          # - title:  Github page for project
+          #   icon: fab fa-github
+          #   url: Link to project
+        quote: >
+          A job portal for both job seekers and recruiters. Job seekers can browse and apply for job openings, submitting their resumes, while recruiters can post and manage job listings, assess incoming resumes, and send interview invitations.
+        description: | # this will include new lines to allow paragraphs
+          The entire project is completely built using **Typescript**, and the entire source code is managed through **Git** and hosted on **GitHub**.
+
+          The front-end **Single Page Application** is constructed using reactive framework **Vue**, leveraging **Vue Router** for component navigation, **Pinia** for state management across components, and **Vite** as both a dev server and a build tool.
+
+          The back-end **RESTful API** is developed with **Node.js** framework **Fastify**, utilizing **JSON Web Token** for authentication, and **JSON schema** for validation, and **Drizzle ORM** to interact with relational database **PostgreSQL**.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University College Dublin
+        caption: Sep. 2023 - Sep. 2024 (Expected)
+        sub_title: Master of Human Computer Interaction
+        quote: >
+          UXD: User-Centered Design, Human Computer Interaction, Creative & Interactive Media, Digital Media & Communication, Quantitative Data Analysis, AI & Ethics
+        description: | # this will include new lines to allow paragraphs
+
+      - layout: left
+        title: Communication University of China
+        caption: Sep. 2010 - Jun. 2014
+        sub_title: Bachelor of Radio and Television Engineering
+        quote: >
+          Photography & Lighting Technology, Audio Engineering, TV Program Editing and Digital Compositing Technology, Art of TV Editing and Directing, Film & TV Editing Art
+        description: | # this will include new lines to allow paragraphs
+
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - **Programming**: HTML, CSS, JavaScript (TypeScript), Python, Go, R, SQL
+      - **Design & Prototype**: Photoshop, Illustrator, Figma
+      - **Video & Audio Editing**: Premiere, After Effect, Audition
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Shenzhen Media Group
+        # link:
+        # link_text:
+        sub_title: Broadcasting Engineer
+        caption: Jan. 2015 - Jun. 2023
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+          Maintained annual gross downtime below 30 minutes for 8 consecutive years.
+
+          Led my colleagues in the revision of a broadcasting manual, resulting in streamlined workflows and over 30% reduction in training time.
+
+      - layout: left
+        title: Beijing Huxiu IT Corp,
+        # link:
+        # link_text:
+        sub_title: Journalist & Editor
+        caption: Jul. 2014 - Dec. 2014
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+          Authored over 50 IT reports and articles, gathering hundreds of thousands of readers.
+
+# Footer
+footer_show_references: true
+references_title: Haomin Zhang - zhanghaomin9248@gmail.com
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
