@@ -30,15 +30,15 @@ about_profile_image: images/Hermes.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Haomin Zhang and I am a **full-stack developer**. I am currently pursuing a **master** degree of **Human Computer Interaction** at **University College Dublin**.
 
-  I am most proficient in: <mark>Typescript</mark>, <mark>Vue</mark> and <mark>Fastify</mark>
+  I am most proficient in: <mark>Typescript</mark>, <mark>Vue</mark>, <mark>Fastify</mark>, <mark>R</mark>, <mark>Tidyverse</mark>, <mark>Tidymodels</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        # border: weak
-        title: Indeed-like Job Website
+        border: weak
+        title: Job Website
         link: github.com/hmzhang48/job_website
         link_text: job_website
         additional_links:
@@ -53,6 +53,23 @@ content:
           The front-end **Single Page Application** is constructed using reactive framework **Vue**, leveraging **Vue Router** for component navigation, **Pinia** for state management across components, and **Vite** as both a dev server and a build tool.
 
           The back-end **RESTful API** is developed with **Node.js** framework **Fastify**, utilizing **JSON Web Token** for authentication, and **JSON schema** for validation, and **Drizzle ORM** to interact with relational database **PostgreSQL**.
+      
+      - layout: left
+        title: Kaggle Competitions
+        link: hmzhang48.github.io/Statistics
+        link_text: Statistics
+        additional_links:
+          - title: Statistics
+            icon: fab fa-r-project
+            url: hmzhang48.github.io/Statistics
+        quote: >
+          Titanic (classification) and House Prices (regression).
+        description: | # this will include new lines to allow paragraphs
+          Completed two machine learning competitions with **R**
+
+          Finished **data visualization** and **feature engineering** with **Tidyverse**.
+
+          Created and tuned **Random Forest** model for **classification** and **Boosted Trees** (**XGBoost**) model for **regression** with **Tidymodels**.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -65,7 +82,7 @@ content:
         quote: >
           UCD is a leading research-intensive university in Ireland.
         description: | # this will include new lines to allow paragraphs
-          **Modules**: UXD: User-Centered Design, Human Computer Interaction, Creative & Interactive Media, Digital Media & Communication, Quantitative Data Analysis, AI & Ethics
+          **Modules**: UXD: User-Centered Design, Human Computer Interaction, Human Language Technologies, Creative & Interactive Media, Quantitative Data Analysis, AI & Ethics
 
       - layout: left
         title: Communication University of China
