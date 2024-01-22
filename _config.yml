@@ -64,28 +64,24 @@ content:
             icon: fab fa-r-project
             url: hmzhang48.github.io/Statistics
         quote: >
-          Titanic (classification) & House Prices (regression)
+          Titanic - Machine Learning from Disaster & House Prices - Advanced Regression Techniques
         description: | # this will include new lines to allow paragraphs
-          Completed two machine learning competitions with **R**
+          Applied **machine learning** in **R** to analyze the Titanic dataset for **classification** and predict house prices through **regression**.
 
-          Finished **data visualization** and **feature engineering** with **Tidyverse**.
+          Implemented **data visualization** and **feature engineering** with **Tidyverse**.
 
-          Created and tuned **Random Forest** model for **classification** and **Boosted Trees** (**XGBoost**) model for **regression** with **Tidymodels**.
+          Fitted and tuned **Random Forest** model for **classification** and **Boosted Trees** (**XGBoost**) model for **regression** with **Tidymodels**.
 
       - layout: left
         title: Data Presentation
         link: hmzhang48.github.io/gaza_strip
         link_text: The Gaza Strip
-        additional_links:
-          - title: The Gaza Strip
-            icon: fab fa-chart-pie
-            url: hmzhang48.github.io/gaza_strip
         quote: >
           The Gaza Strip - from an open-air prison to an open-air graveyard
         description: | # this will include new lines to allow paragraphs
-          Created slides using HTML presentation framework **Reveal.js**.
+          Developed slides using HTML presentation framework **Reveal.js**.
           
-          Made HTML5 canvas charts using charting library **Chart.js**.
+          Designed HTML5 canvas charts utilizing charting library **Chart.js**.
           
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
