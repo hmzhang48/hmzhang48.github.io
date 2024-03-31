@@ -48,7 +48,7 @@ content:
         quote: >
           A job portal for both job seekers and recruiters. Job seekers can browse and apply for job openings, submitting their resumes, while recruiters can post and manage job listings, assess incoming resumes, and send interview invitations.
         description: | # this will include new lines to allow paragraphs
-          The entire project is completely built using **Typescript**, and the entire source code is managed through **Git** and hosted on **GitHub**.
+          The source code is written in **Typescript** and managed through **Git**.
 
           The front-end **Single Page Application** is constructed using reactive framework **Vue**, leveraging **Vue Router** for component navigation, **Pinia** for state management across components, and **Vite** as both a dev server and a build tool.
 
@@ -76,10 +76,12 @@ content:
           Fitted and tuned **Random Forest** model for **classification** and **Boosted Trees** (**XGBoost**) model for **regression** with **Tidymodels**.
           
           Applied **natural language processing** in **Python** to analyze Disaster Tweets for text **classification**.
+
+          Leveraged **Pandas** and **Hugging Face Datasets** to manipulate data for analysis.
           
-          Fine-tuned **AWD_LSTM** model with **Fastai** and **Distilbert** model with **Transformer**.
+          Fine-tuned **AWD-LSTM** model with **Fast.ai** and **Distilbert** model with **Hugging Face Transformer**.
           
-          Leveraged **Pytorch** to develop **neural networks** for **deep learning**. 
+          Utilized **Pytorch** to build tensors and neural networks for **deep learning**. 
 
       - layout: left
         title: Data Presentation
