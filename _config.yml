@@ -39,12 +39,12 @@ content:
       - layout: left
         border: weak
         title: Job Website
-        link: github.com/hmzhang48/job_website
+        link: github.com/hmzhang48/Job_Website
         link_text: job_website
         additional_links:
           - title: job_website
             icon: fab fa-github
-            url: github.com/hmzhang48/job_website
+            url: github.com/hmzhang48/Job_Website
         quote: >
           A job portal for both job seekers and recruiters. Job seekers can browse and apply for job openings, submitting their resumes, while recruiters can post and manage job listings, assess incoming resumes, and send interview invitations.
         description: | # this will include new lines to allow paragraphs
@@ -57,20 +57,29 @@ content:
       - layout: left
         border: weak
         title: Kaggle Competitions
-        link: hmzhang48.github.io/Statistics
-        link_text: Learning Statistics
+        link: 
+        link_text: 
         additional_links:
           - title: Learning Statistics
             icon: fab fa-r-project
             url: hmzhang48.github.io/Statistics
+          - title: Colab Notebooks
+            icon: fab fa-python
+            url: colab.research.google.com/drive/1WVvElujNORFvmCnUpjBkPMSq_fAkKOmc?usp=sharing
         quote: >
-          Titanic - Machine Learning from Disaster & House Prices - Advanced Regression Techniques
+          Titanic - Machine Learning from Disaster & House Prices - Advanced Regression Techniques & Natural Language Processing with Disaster Tweets
         description: | # this will include new lines to allow paragraphs
           Applied **machine learning** in **R** to analyze the Titanic dataset for **classification** and predict house prices through **regression**.
 
           Implemented **data visualization** and **feature engineering** with **Tidyverse**.
 
           Fitted and tuned **Random Forest** model for **classification** and **Boosted Trees** (**XGBoost**) model for **regression** with **Tidymodels**.
+          
+          Applied **natural language processing** in **Python** to analyze Disaster Tweets for text **classification**.
+          
+          Fine-tuned **AWD_LSTM** model with **Fastai** and **Distilbert** model with **Transformer**.
+          
+          Leveraged **Pytorch** to develop **neural networks** for **deep learning**. 
 
       - layout: left
         title: Data Presentation
