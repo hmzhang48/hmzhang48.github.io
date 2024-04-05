@@ -75,11 +75,13 @@ content:
 
           Fitted and tuned **Random Forest** model for **classification** and **Boosted Trees** (**XGBoost**) model for **regression** with **Tidymodels**.
           
-          Applied **natural language processing** in **Python** to analyze Disaster Tweets for text **classification**.
+          Applied **natural language processing** in **Python** to analyze Disaster Tweets for **text classification**.
+
+          Applied **computer vision** in **Python** to recognize digits through **image classification**.
 
           Implemented **data preprocessing** with **Pandas** and **Hugging Face Datasets**.
           
-          Fine-tuned **AWD-LSTM** model with **Fast.ai** and **Distilbert** model with **Hugging Face Transformer**.
+          Fine-tuned **AWD-LSTM (RNN)** model and **Resnet34 (CNN)** with **Fast.ai** and **DeBERTa** model and **Swin** model with **Hugging Face Transformer**.
           
           Utilized **Pytorch** to build tensors and neural networks for **deep learning**. 
 
