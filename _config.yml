@@ -66,8 +66,11 @@ content:
           - title: Colab Notebooks
             icon: fab fa-python
             url: colab.research.google.com/drive/1WVvElujNORFvmCnUpjBkPMSq_fAkKOmc?usp=sharing
+          - title: Colab Notebooks
+            icon: fab fa-python
+            url: colab.research.google.com/drive/1-B7IMY0wdQfqYoZaJikgOa7ivWOOvhbX?usp=sharing
         quote: >
-          Titanic - Machine Learning from Disaster & House Prices - Advanced Regression Techniques & Natural Language Processing with Disaster Tweets
+          Titanic - Machine Learning from Disaster & House Prices - Advanced Regression Techniques & Natural Language Processing with Disaster Tweets & Digit Recognizer
         description: | # this will include new lines to allow paragraphs
           Applied **machine learning** in **R** to analyze the Titanic dataset for **classification** and predict house prices through **regression**.
 
