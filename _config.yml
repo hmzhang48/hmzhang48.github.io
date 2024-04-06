@@ -84,7 +84,7 @@ content:
 
           Implemented **data preprocessing** with **Pandas** and **Hugging Face Datasets**.
           
-          Fine-tuned **AWD-LSTM (RNN)** model and **Resnet34 (CNN)** with **Fast.ai** and **DeBERTa** model and **Swin** model with **Hugging Face Transformer**.
+          Fine-tuned **AWD-LSTM (RNN)** model and **ResNet (CNN)** with **Fast.ai** and **DeBERTa** model and **Swin** model with **Hugging Face Transformer**.
           
           Utilized **Pytorch** to build tensors and neural networks for **deep learning**. 
 
