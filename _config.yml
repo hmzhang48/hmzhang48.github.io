@@ -64,11 +64,10 @@ content:
         quote: >
           Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
         description: | # this will include new lines to allow paragraphs
-	        Constructed a high-fidelity prototype with **Figma**.
-            
+          Constructed a high-fidelity prototype with **Figma**.
+	  
           Designed user interface following **Material Design 3** guidelines. 
 
-      
       - layout: left
         border: weak
         title: Kaggle Competitions
@@ -113,7 +112,7 @@ content:
           Developed slides using HTML presentation framework **Reveal.js**.
           
           Designed HTML5 canvas charts utilizing charting library **Chart.js**.
-          
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
