@@ -39,20 +39,35 @@ content:
       - layout: left
         border: weak
         title: Job Website
-        link: github.com/hmzhang48/Job_Website
-        link_text: job_website
+        # link:
+        # link_text: 
         additional_links:
-          - title: job_website
+          - title: Job Website
             icon: fab fa-github
             url: github.com/hmzhang48/Job_Website
         quote: >
           A job portal for both job seekers and recruiters. Job seekers can browse and apply for job openings, submitting their resumes, while recruiters can post and manage job listings, assess incoming resumes, and send interview invitations.
         description: | # this will include new lines to allow paragraphs
-          The source code is written in **Typescript** and managed through **Git**.
+          The front-end **Single Page Application** is constructed using reactive framework **Vue 3**, leveraging **Vue Router** for component navigation, **Pinia** for state management across components, and **Vite** as both a dev server and a build tool.
 
-          The front-end **Single Page Application** is constructed using reactive framework **Vue**, leveraging **Vue Router** for component navigation, **Pinia** for state management across components, and **Vite** as both a dev server and a build tool.
+          The back-end **RESTful API** is developed with **Node.js** framework **Fastify 4**, utilizing **JSON Web Token** for authentication, and **JSON schema** for validation, and **Drizzle ORM** to interact with relational database **PostgreSQL**.
 
-          The back-end **RESTful API** is developed with **Node.js** framework **Fastify**, utilizing **JSON Web Token** for authentication, and **JSON schema** for validation, and **Drizzle ORM** to interact with relational database **PostgreSQL**.
+      - layout: left
+        border: weak
+        title: Education App                                                                       
+        # link:
+        # link_text:
+        additional_links:
+          - title: Education App
+            icon: fab fa-figma
+            url: figma.com/file/iLDLrStzODMTF9zpo51nxd/HCI-Group-Design-challenge?type=design&node-id=0%3A1&mode=design&t=amks12qJMFFhwQpC-1
+        quote: >
+          Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
+        description: | # this will include new lines to allow paragraphs
+	        Constructed a high-fidelity prototype with **Figma**.
+            
+          Designed user interface following **Material Design 3** guidelines. 
+
       
       - layout: left
         border: weak
@@ -78,20 +93,20 @@ content:
 
           Fitted and tuned **Random Forest** model for **classification** and **Boosted Trees** (**XGBoost**) model for **regression** with **Tidymodels**.
           
-          Applied **natural language processing** in **Python** to analyze Disaster Tweets for **text classification**.
-
-          Applied **computer vision** in **Python** to recognize digits through **image classification**.
+          Applied **deep learning** in **Python** to analyze Disaster Tweets for **text classification** and recognize digits through **image classification**.
 
           Implemented **data preprocessing** with **Pandas** and **Hugging Face Datasets**.
           
-          Fine-tuned **AWD-LSTM (RNN)** model and **ResNext (CNN)** with **Fast.ai** and **DeBERTa** model and **Swin** model with **Hugging Face Transformers**.
-          
-          Utilized **Pytorch** to build tensors and neural networks for **deep learning**. 
+          Fine-tuned **AWD-LSTM (RNN)** model and **ResNext (CNN)** with **Fast.ai** and **DeBERTa V3** model and **Swin V2** model with **Hugging Face Transformers**.
 
       - layout: left
-        title: Data Presentation
-        link: hmzhang48.github.io/Gaza_Strip
-        link_text: The Gaza Strip
+        title: Interactive Data Journalism Report
+        # link:
+        # link_text:
+        additional_links:
+          - title: The Gaza Strip
+            icon: fab fa-github
+            url: hmzhang48.github.io/Gaza_Strip
         quote: >
           The Gaza Strip - from an open-air prison to an open-air graveyard
         description: | # this will include new lines to allow paragraphs
