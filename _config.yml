@@ -30,7 +30,7 @@ about_profile_image: images/Hermes.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Haomin Zhang and I am a **full-stack developer**. I am currently pursuing a **master** degree of **Human Computer Interaction** at **University College Dublin**.
 
-  I am most proficient in: <mark>Typescript</mark>, <mark>Vue</mark>, <mark>Fastify</mark>, <mark>R</mark>, <mark>Tidyverse</mark>, <mark>Tidymodels</mark>
+  I am most proficient in: <mark>Typescript</mark>, <mark>Vue</mark>, <mark>Fastify</mark>, <mark>R</mark>, <mark>Tidyverse</mark>, <mark>Tidymodels</mark>, <mark>Python</mark>, <mark>Pandas</mark>, <mark>Fast.ai</mark>, <mark>Hugging Face</mark>
 
 content:
   - title: Projects # Title for the section
@@ -48,9 +48,9 @@ content:
         quote: >
           A job portal for both job seekers and recruiters. 
         description: | # this will include new lines to allow paragraphs
-          Constructed a front-end **SPA** with reactive framework **Vue 3**, leveraging **Vue Router** for component navigation, **Pinia** for state management, and **Vite** as both a dev server and a build tool.
+          Constructed a **Single-page application** with reactive framework **Vue 3**, leveraging **Vue Router** for component navigation, **Pinia** for state management, and **Vite** as both a dev server and a build tool.
 
-          Developed back-end **RESTful APIs** with **Node.js** framework **Fastify 4**, utilizing **JSON Web Token** for authentication, and **JSON schema** for validation, and **Drizzle ORM** to interact with relational database **PostgreSQL**.
+          Developed **RESTful APIs** with **Node.js** framework **Fastify 4**, utilizing **JSON Web Token** for authentication, **JSON schema** for validation, **Server-sent events** for notification, and **Drizzle ORM** to interact with relational database **PostgreSQL**.
 
       - layout: left
         border: weak
@@ -96,7 +96,9 @@ content:
 
           Implemented **data preprocessing** with **Pandas** and **Hugging Face Datasets**.
           
-          Fine-tuned **AWD-LSTM (RNN)** model and **ResNext (CNN)** with **Fast.ai** and **DeBERTa V3** model and **Swin V2** model with **Hugging Face Transformers**.
+          Fine-tuned **AWD-LSTM (RNN)** model and **ResNext (CNN)** with **Fast.ai**.
+          
+          Fine-tuned **DeBERTa V3** model and **Swin V2** model with **Hugging Face Transformers**.
 
       - layout: left
         title: Data Journalism Report
@@ -109,7 +111,7 @@ content:
         quote: >
           The Gaza Strip - from an open-air prison to an open-air graveyard
         description: | # this will include new lines to allow paragraphs
-          Developed slides using HTML presentation framework **Reveal.js**.
+          Developed slides with HTML presentation framework **Reveal.js**.
           
           Designed HTML5 canvas charts utilizing charting library **Chart.js**.
 
@@ -155,9 +157,9 @@ content:
         quote: >
           SZMG is a state media company based in Shenzhen, Guangdong province, China.
         description: | # this will include new lines to allow paragraphs
-          Maintained annual gross downtime below 30 minutes for 8 consecutive years.
+          Managed a broadcasting control system, maintaining annual gross downtime below **30** minutes for **8** consecutive years.
 
-          Led my colleagues in the revision of a broadcasting manual, resulting in streamlined workflows and over 30% reduction in training time.
+          Led my colleagues to rewrite a broadcasting manual, streamlining workflows and reducing over **30%** training time.
 
       - layout: left
         title: Beijing Huxiu Information Technology Co., Ltd.
@@ -168,7 +170,9 @@ content:
         quote: >
           Huxiu is an information platform focusing on technology and innovation.
         description: | # this will include new lines to allow paragraphs
-          Authored over 50 IT reports and articles, gathering hundreds of thousands of readers.
+          Authored over **50** high-impact reports and articles on IT trends, reaching **hundreds of thousands** of readers.
+
+          Audited over **20** daily article submissions for publication, maintaining editorial quality and reader engagement.
 
 # Footer
 footer_show_references: true
