@@ -33,6 +33,36 @@ about_content: | # this will include new lines to allow paragraphs
   I am most proficient in: <mark>Typescript</mark>, <mark>Vue</mark>, <mark>Fastify</mark>, <mark>R</mark>, <mark>Tidyverse</mark>, <mark>Tidymodels</mark>, <mark>Python</mark>, <mark>Pandas</mark>, <mark>Fast.ai</mark>, <mark>Hugging Face</mark>
 
 content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak
+        title: University College Dublin
+        caption: Sep. 2023 - Sep. 2024 (Expected)
+        sub_title: Master of Human Computer Interaction
+        quote: >
+          UCD is a leading research-intensive university in Ireland.
+        description: | # this will include new lines to allow paragraphs
+          **Modules**: UXD: User-Centered Design, Human Computer Interaction, Human Language Technologies, Creative & Interactive Media, Quantitative Data Analysis, Information Ethics, AI & Ethics
+
+      - layout: left
+        title: Communication University of China
+        caption: Sep. 2010 - Jun. 2014
+        sub_title: Bachelor of Radio and Television Engineering
+        quote: >
+          CUC is one of the China's key universities of "Project 211", directly administered by the Ministry of Education.
+        description: | # this will include new lines to allow paragraphs
+          **Modules**: Photography & Lighting Technology, Audio Engineering, TV Program Editing and Digital Compositing Technology, Art of TV Editing and Directing, Film & TV Editing Art, Digital TV Studio Technology
+
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - **Programming**: HTML, CSS, JavaScript (TypeScript), Dart, Python, Go, C# 
+      - **Data Analysis**: Excel, Power BI, R, SQL
+      - **Design & Prototype**: Photoshop, Illustrator, Figma
+      - **Video & Audio Editing**: Premiere, After Effect, Audition
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -61,12 +91,17 @@ content:
           - title: Education App
             icon: fab fa-figma
             url: figma.com/file/iLDLrStzODMTF9zpo51nxd/HCI-Group-Design-challenge?type=design&node-id=0%3A1&mode=design&t=amks12qJMFFhwQpC-1
+          - title: Education App
+            icon: fab fa-github
+            url: github.com/hmzhang48/Education_App
         quote: >
-          Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
+          An education app providing personalized learning resources and paths for self-leaners.
         description: | # this will include new lines to allow paragraphs
           Constructed a high-fidelity prototype with **Figma**.
           
           Designed user interface following **Material Design 3** guidelines. 
+
+          Developed a **mobile application** with multi-platform framework **Flutter**, leveraging **GoRouter** for screen navigation and **NoSQL** database **sembast** for local persistence.
 
       - layout: left
         border: weak
@@ -114,35 +149,6 @@ content:
           Developed slides with HTML presentation framework **Reveal.js**.
           
           Designed HTML5 canvas charts utilizing charting library **Chart.js**.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak
-        title: University College Dublin
-        caption: Sep. 2023 - Sep. 2024 (Expected)
-        sub_title: Master of Human Computer Interaction
-        quote: >
-          UCD is a leading research-intensive university in Ireland.
-        description: | # this will include new lines to allow paragraphs
-          **Modules**: UXD: User-Centered Design, Human Computer Interaction, Human Language Technologies, Creative & Interactive Media, Quantitative Data Analysis, Information Ethics, AI & Ethics
-
-      - layout: left
-        title: Communication University of China
-        caption: Sep. 2010 - Jun. 2014
-        sub_title: Bachelor of Radio and Television Engineering
-        quote: >
-          CUC is one of the China's key universities of "Project 211", directly administered by the Ministry of Education.
-        description: | # this will include new lines to allow paragraphs
-          **Modules**: Photography & Lighting Technology, Audio Engineering, TV Program Editing and Digital Compositing Technology, Art of TV Editing and Directing, Film & TV Editing Art, Digital TV Studio Technology
-
-  - title: Skills
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      - **Programming**: HTML, CSS, JavaScript (TypeScript), Python, Go, R, SQL
-      - **Design & Prototype**: Photoshop, Illustrator, Figma
-      - **Video & Audio Editing**: Premiere, After Effect, Audition
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
