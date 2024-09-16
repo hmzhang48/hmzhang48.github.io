@@ -30,7 +30,7 @@ about_profile_image: images/Hermes.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Haomin Zhang and I am a **full-stack developer**. I am currently pursuing a **master** degree of **Human Computer Interaction** at **University College Dublin**.
 
-  I am most proficient in: <mark>Typescript</mark>, <mark>Vue</mark>, <mark>Fastify</mark>, <mark>R</mark>, <mark>Tidyverse</mark>, <mark>Tidymodels</mark>, <mark>Python</mark>, <mark>Pandas</mark>, <mark>Fast.ai</mark>, <mark>Hugging Face</mark>
+  I am most proficient in: <mark>Typescript</mark>, <mark>Vue</mark>, <mark>Fastify</mark>, <mark>Dart</mark>, <mark>Flutter</mark>, <mark>R</mark>, <mark>Tidyverse</mark>, <mark>Tidymodels</mark>, <mark>Python</mark>, <mark>Pandas</mark>, <mark>Fast.ai</mark>, <mark>Hugging Face</mark>
 
 content:
   - title: Education # Title for the section
