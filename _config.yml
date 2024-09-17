@@ -90,7 +90,7 @@ content:
         additional_links:
           - title: Education App
             icon: fab fa-figma
-            url: figma.com/file/iLDLrStzODMTF9zpo51nxd/HCI-Group-Design-challenge?type=design&node-id=0%3A1&mode=design&t=amks12qJMFFhwQpC-1
+            url: https://www.figma.com/design/iLDLrStzODMTF9zpo51nxd/Education-App?node-id=0-1&t=rpFf6F3IcYvB0Vkz-1
           - title: Education App
             icon: fab fa-github
             url: github.com/hmzhang48/Education_App
@@ -149,6 +149,21 @@ content:
           Developed slides with HTML presentation framework **Reveal.js**.
           
           Designed HTML5 canvas charts utilizing charting library **Chart.js**.
+
+      - layout: left
+        title: PPI (Patient and Public Involvement) Platform
+        # link:
+        # link_text:
+        additional_links:
+          - title: PPI Platform
+            icon: fab fa-figma
+            url: https://www.figma.com/design/OLfSKEiyhUc5OvZ1EHgVWX/PPI-Platform?node-id=0-1&t=u5Zpob6Db27xOMME-1
+        quote: >
+          An innovative online platform that bridges researchers and PPI contributors, enabling seamless two-way collaboration.
+        description: | # this will include new lines to allow paragraphs
+          Collaborated with PPI Ignite Network @ UCD.
+          
+          Designed magazine-style portfolios to document the entire design process and high-fidelity prototypes to demonstrate core functions and intuitive user flows.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
