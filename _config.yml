@@ -82,6 +82,8 @@ content:
 
           Developed **RESTful APIs** with **Node.js** framework **Fastify 4**, utilizing **JSON Web Token** for authentication, **JSON schema** for validation, **Server-sent events** for notification, and **Drizzle ORM** to interact with relational database **PostgreSQL**.
 
+          Deployed the website on **AWS Elastic Beanstalk** for accessibility and scalability.
+
       - layout: left
         border: weak
         title: Education App                                                                       
@@ -101,7 +103,7 @@ content:
           
           Designed user interface following **Material Design 3** guidelines. 
 
-          Developed a **mobile application** with multi-platform framework **Flutter**, leveraging **GoRouter** for screen navigation and **NoSQL** database **sembast** for local persistence.
+          Developed a **Android application** with multi-platform framework **Flutter**, leveraging **GoRouter** for screen navigation and **NoSQL** database **sembast** for local persistence.
 
       - layout: left
         border: weak
@@ -109,7 +111,7 @@ content:
         # link: 
         # link_text: 
         additional_links:
-          - title: Quarto
+          - title: Notebook
             icon: fab fa-r-project
             url: hmzhang48.github.io/Statistics          
           - title: Colab
