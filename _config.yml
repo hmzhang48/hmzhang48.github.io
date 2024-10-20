@@ -58,7 +58,7 @@ content:
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - **Programming**: HTML, CSS, JavaScript (TypeScript), Dart, Python, Go, C# 
+      - **Programming**: HTML, CSS (SCSS), JavaScript (TypeScript), Dart, Python, Go, C# 
       - **Data Analysis**: Excel, Power BI, R, SQL
       - **Design & Prototype**: Photoshop, Illustrator, Figma
       - **Video & Audio Editing**: Premiere, After Effect, Audition
@@ -82,7 +82,7 @@ content:
 
           Developed **RESTful APIs** with **Node.js** framework **Fastify 4**, utilizing **JSON Web Token** for authentication, **JSON schema** for validation, **Server-sent events** for notification, and **Drizzle ORM** to interact with relational database **PostgreSQL**.
 
-          Deployed the website on **AWS Elastic Beanstalk** for accessibility and scalability.
+          Deployed the website on **Azure App Service** for accessibility.
 
       - layout: left
         border: weak
@@ -152,6 +152,8 @@ content:
           Developed slides with HTML presentation framework **Reveal.js**.
           
           Designed HTML5 canvas charts utilizing charting library **Chart.js**.
+
+          Deployed the static webpage on **GitHub Pages**.
 
       - layout: left
         title: Patient and Public Involvement Platform
