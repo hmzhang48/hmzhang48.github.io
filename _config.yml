@@ -101,11 +101,11 @@ content:
         description: | # this will include new lines to allow paragraphs
           Constructed a high-fidelity prototype with **Figma**.
           
-          Designed user interface following **Material Design 3** guidelines.
+          Designed user interface following **Material Design 3** design system.
 
-          Developed an **Android app** with multi-platform framework **Flutter**, leveraging **GoRouter** for screen navigation. 
+          Developed an **Android** app with multi-platform framework **Flutter** and **Material Components**, leveraging **GoRouter** for screen navigation. 
           
-          Built the app on **Firebase**, leveraging **NoSQL** database **Firestore** and **Cloud Storage**.
+          Built the app on **Firebase**, utilizing **NoSQL** database **Firestore** and **Cloud Storage**.
 
       - layout: left
         border: weak
