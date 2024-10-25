@@ -103,7 +103,9 @@ content:
           
           Designed user interface following **Material Design 3** guidelines.
 
-          Developed an **Android application** with multi-platform framework **Flutter**, leveraging **GoRouter** for screen navigation and **NoSQL** database **Firestore** for data storage.
+          Developed an **Android app** with multi-platform framework **Flutter**, leveraging **GoRouter** for screen navigation. 
+          
+          Built the app on **Firebase**, leveraging **NoSQL** database **Firestore** and **Cloud Storage**.
 
       - layout: left
         border: weak
