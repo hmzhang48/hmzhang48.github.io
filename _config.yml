@@ -101,9 +101,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           Constructed a high-fidelity prototype with **Figma**.
           
-          Designed user interface following **Material Design 3** guidelines. 
+          Designed user interface following **Material Design 3** guidelines.
 
-          Developed a **Android application** with multi-platform framework **Flutter**, leveraging **GoRouter** for screen navigation and **NoSQL** database **sembast** for local persistence.
+          Developed an **Android application** with multi-platform framework **Flutter**, leveraging **GoRouter** for screen navigation and **NoSQL** database **Firestore** for data storage.
 
       - layout: left
         border: weak
