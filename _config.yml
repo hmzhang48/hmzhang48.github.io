@@ -103,7 +103,7 @@ content:
           
           Designed user interface following **Material Design 3** design system.
 
-          Developed an **Android** app with multi-platform framework **Flutter** and **Material Components**, leveraging **GoRouter** for screen navigation. 
+          Developed an **Android** app with multi-platform framework **Flutter** and **Material Components**, leveraging **GoRouter** for navigation. 
           
           Built the app on **Firebase**, utilizing **NoSQL** database **Cloud Firestore**, integrating **Google Cloud Storage**.
 
