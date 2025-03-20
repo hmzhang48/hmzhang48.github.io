@@ -82,6 +82,8 @@ content:
 
           Developed **RESTful APIs** with **Node.js** framework **Fastify 4**, utilizing **JSON Web Token** for authentication, **JSON schema** for validation, **Server-sent events** for notification, and **Drizzle ORM** to interact with relational database **PostgreSQL**.
 
+          Tested the project in **Linux Container**, employing **Docker Compose**.
+          
           Deployed the website on **Azure App Service**, integrating **Azure Blob Storage**.
 
       - layout: left
