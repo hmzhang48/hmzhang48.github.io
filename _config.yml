@@ -78,9 +78,9 @@ content:
         quote: >
           A job portal for both job seekers and recruiters. 
         description: | # this will include new lines to allow paragraphs
-          Constructed a **Single-page application** with reactive framework **Vue 3**, leveraging **Vue Router** for component navigation, **Pinia** for state management, and **Vite** as both a dev server and a build tool.
+          Constructed a **Single-page application** with reactive framework **Vue**, leveraging **Vue Router** for component navigation, **Pinia** for state management, and **Vite** as both a dev server and a build tool.
 
-          Developed **RESTful APIs** with **Node.js** framework **Fastify 4**, utilizing **JSON Web Token** for authentication, **JSON schema** for validation, **Server-sent events** for notification, and **Drizzle ORM** to interact with relational database **PostgreSQL**.
+          Developed **RESTful APIs** with **Node.js** framework **Fastify**, utilizing **JSON Web Token** for authentication, **JSON schema** for validation, **Server-sent events** for notification, and **Drizzle ORM** to interact with relational database **PostgreSQL**.
 
           Tested the project in **Linux Container**, employing **Docker Compose**.
           
@@ -103,7 +103,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Constructed a high-fidelity prototype with **Figma**.
           
-          Designed user interface following **Material Design 3** design system.
+          Designed user interface following **Material Design** design system.
 
           Developed an **Android** app with multi-platform framework **Flutter** and **Material components**, leveraging **GoRouter** for navigation, **Shared preferences** for persistence, **Hooks** and **Riverpod** for state management.
           
@@ -139,7 +139,7 @@ content:
           
           Fine-tuned **AWD-LSTM (RNN)** model and **ResNext (CNN)** with **Fast.ai**.
           
-          Fine-tuned **DeBERTa V3** model and **Swin V2** model with **Hugging Face Transformers**.
+          Fine-tuned **DeBERTa** model and **Swin Transformer** model with **Hugging Face Transformers**.
 
       - layout: left
         border: weak
