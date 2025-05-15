@@ -86,6 +86,8 @@ content:
           
           Deployed the website on **Azure App Service**, integrating **Azure Blob Storage**.
 
+          Automated deployment with **GitHub Actions**.
+
       - layout: left
         border: weak
         title: Education App                                                                       
@@ -140,6 +142,22 @@ content:
           Fine-tuned **AWD-LSTM (RNN)** model and **ResNext (CNN)** with **Fast.ai**.
           
           Fine-tuned **DeBERTa** model and **Swin Transformer** model with **Hugging Face Transformers**.
+
+      - layout: left
+        border: weak
+        title: Paper Helper
+        # link: 
+        # link_text: 
+        additional_links:        
+          - title: Colab
+            icon: fab fa-python
+            url: https://colab.research.google.com/drive/1dcetdVgGDdDxW-RQ5H05kPwzKWmICOSs?usp=sharing
+        quote: >
+          A Q&A chatbot streamlining academic paper comprehension for students.
+        description: | # this will include new lines to allow paragraphs
+          Implemented **RAG** (**Retrieval-Augmented Generation**) with **Sentence Transformers** and **Rank-BM25**.
+
+          Design a workflow, utilizing **pypdf** for extracting texts from PDF files, **spaCy** for tokenization and sentence Segmentation, **Chroma** for vector storage and search, **Gemma 3 1B** for text generation.
 
       - layout: left
         border: weak
