@@ -155,9 +155,15 @@ content:
         quote: >
           A Q&A chatbot streamlining academic paper comprehension for students.
         description: | # this will include new lines to allow paragraphs
-          Implemented **RAG** (**Retrieval-Augmented Generation**) with **Sentence Transformers** and **Rank-BM25**.
+          Implemented a hybrid **RAG** (**Retrieval-Augmented Generation**) architecture.
 
-          Design a workflow, utilizing **pypdf** for extracting texts from PDF files, **spaCy** for tokenization and sentence Segmentation, **Chroma** for vector storage and search, **Gemma 3 1B** for text generation.
+          Utilized **pypdf** for extracting texts from PDF files and **spaCy** for tokenization, lemmatization and sentence Segmentation.
+
+          Implemented **semantic search** with **Faiss** and **lexical search** with **BM25-Sparse**.
+
+          Leveraged **Sentence Transformers** for vector generation and text reranking.
+          
+          Adopted **Small Language Model** (**Llama 3.2 1B**) for text generation.
 
       - layout: left
         border: weak
