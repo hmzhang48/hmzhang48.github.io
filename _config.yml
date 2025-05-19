@@ -159,11 +159,11 @@ content:
 
           Utilized **pypdf** for extracting texts from PDF files and **spaCy** for tokenization, lemmatization and sentence Segmentation.
 
-          Implemented **semantic search** with **Faiss** and **lexical search** with **BM25-Sparse**.
+          Implemented **semantic search** with **Faiss**, **lexical search** with **BM25-Sparse** and reranking with **PyLate**.
 
-          Leveraged **Sentence Transformers** for vector generation and text reranking.
+          Leveraged **Sentence Transformers** for sentence embedding and reranking.
           
-          Adopted **Small Language Model** (**Llama 3.2 1B**) for text generation.
+          Adopted **Small Language Model** (**Gemma 3 1B**) for reply generation.
 
       - layout: left
         border: weak
