@@ -155,7 +155,7 @@ content:
         quote: >
           A Q&A chatbot streamlining academic paper comprehension for students.
         description: | # this will include new lines to allow paragraphs
-          Implemented a hybrid **RAG** (**Retrieval-Augmented Generation**) architecture.
+          Implemented an advanced **RAG** (**Retrieval-Augmented Generation**) architecture.
 
           Utilized **pypdf** for extracting texts from PDF files and **spaCy** for tokenization, lemmatization and sentence Segmentation.
 
@@ -163,7 +163,7 @@ content:
 
           Leveraged **Sentence Transformers** for sentence embedding and reranking.
           
-          Adopted **Small Language Model** (**Gemma 3 1B**) for reply generation.
+          Adopted **Small Language Model** for hypothetical document and final reply generation.
 
       - layout: left
         border: weak
